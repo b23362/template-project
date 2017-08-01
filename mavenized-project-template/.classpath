@@ -1,0 +1,58 @@
+<classpath>
+  <classpathentry kind="src" path="src/main/api" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/app" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes"/>
+  <classpathentry kind="src" path="src/test/resources" output="target/test-classes" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="MULE_RUNTIME"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/javax/activation/activation/1.1/activation-1.1.jar" sourcepath="M2_REPO/javax/activation/activation/1.1/activation-1.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/intellij/annotations/12.0/annotations-12.0.jar" sourcepath="M2_REPO/com/intellij/annotations/12.0/annotations-12.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jetbrains/annotations/13.0/annotations-13.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/antlr/antlr4/4.5.1/antlr4-4.5.1.jar" sourcepath="M2_REPO/org/antlr/antlr4/4.5.1/antlr4-4.5.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/cometd/java/bayeux-api/3.0.10/bayeux-api-3.0.10.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.jar" sourcepath="M2_REPO/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/mulesoft/cloudhub/cloudhub-client-api/1.0.0-ch-connector/cloudhub-client-api-1.0.0-ch-connector.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/mulesoft/cloudhub/cloudhub-rest-model/1.0.2/cloudhub-rest-model-1.0.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/cometd/java/cometd-java-client/3.0.10/cometd-java-client-3.0.10.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/cometd/java/cometd-java-common/3.0.10/cometd-java-common-3.0.10.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/mule/wsdlinvoker/dynamic-wsdl-invoker/2.1.6/dynamic-wsdl-invoker-2.1.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/owasp/esapi/esapi/2.0.1/esapi-2.0.1.jar" sourcepath="M2_REPO/org/owasp/esapi/esapi/2.0.1/esapi-2.0.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/force/api/force-metadata-api/39.0.0/force-metadata-api-39.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/force/api/force-partner-api/39.0.0/force-partner-api-39.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/force/api/force-wsc/39.0.0/force-wsc-39.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/2.2.2/gson-2.2.2.jar" sourcepath="M2_REPO/com/google/code/gson/gson/2.2.2/gson-2.2.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.5/httpclient-4.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar"/>
+  <classpathentry kind="lib" path="lib/sapidoc3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-jaxrs/1.8.3/jackson-jaxrs-1.8.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-xc/1.8.3/jackson-xc-1.8.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar"/>
+  <classpathentry kind="lib" path="lib/sapjco3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/jersey/jersey-client/1.9.1/jersey-client-1.9.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/jersey/jersey-core/1.9.1/jersey-core-1.9.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/jersey/jersey-json/1.9.1/jersey-json-1.9.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-client/9.2.20.v20161216/jetty-client-9.2.20.v20161216.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-http/9.2.20.v20161216/jetty-http-9.2.20.v20161216.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-io/9.2.20.v20161216/jetty-io-9.2.20.v20161216.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-util/9.2.20.v20161216/jetty-util-9.2.20.v20161216.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-util-ajax/9.2.18.v20160721/jetty-util-ajax-9.2.18.v20160721.jar"/>
+  <classpathentry kind="var" path="M2_REPO/joda-time/joda-time/2.2/joda-time-2.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/mule/tools/devkit/mule-devkit-shade/3.9.0/mule-devkit-shade-3.9.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/mule/modules/mule-module-cloudhub/2.0.2/mule-module-cloudhub-2.0.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/mulesoft/security/mule-module-security-property-placeholder/1.6.5/mule-module-security-property-placeholder-1.6.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/mule/modules/mule-module-sfdc/8.3.1/mule-module-sfdc-8.3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/mulesoft/muleesb/transports/mule-transport-sap/3.1.1/mule-transport-sap-3.1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/mulesoft/security/security-api/1.6.5/security-api-1.6.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/stax/stax-api/1.0.1/stax-api-1.0.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar" sourcepath="M2_REPO/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/xmlbeans/xmlbeans/2.4.0/xmlbeans-2.4.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/santuario/xmlsec/1.5.7/xmlsec-1.5.7.jar" sourcepath="M2_REPO/org/apache/santuario/xmlsec/1.5.7/xmlsec-1.5.7-sources.jar"/>
+</classpath>
